@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+            text-align: center;
+            background-color:lightslategray;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Application Form</h1>
+    <br>
+    <form action="">
+        <label for="FirstName">First Name :</label>
+        <input type="text" id="FirstName" name="FName" placeholder="Enter Your First Name" required><br><br>
+        <label for="MiddleName">Middle Name :</label>
+        <input type="text" id="MiddleName" name="MName" placeholder="Enter Your Middle Name"><br><br>
+        <label for="LastName">Last Name :</label>
+        <input type="text" name="LastName" id="LastName" placeholder="Enter Your Last Name" required><br><br>
+        <label for="email">Email Id :</label>
+        <input type="email" id="email" name="Email" placeholder="Enter Your Email Id" required> <br><br>
+        <label for="MNo">Mobile Number :</label>
+        <input type="text" name="Mno." id="MNo" placeholder="Enter Your Mobile Number" required><br><br>
+        <label for="Date">Date Of Birth :</label>
+        <input type="date" name="d1" id="Date"><br><br>
+        <label for="Gender">Gender :</label>
+        <input type="radio" id="Gender" name="gender">Male
+        <input type="radio" id="Gender" name="gender">Female
+        <input type="radio" id="Gender" name="gender">Other <br><br>
+        <label for="qualification">Qualification :</label>
+        <select name="qua" id="qualification">
+            <option >--Select--</option>
+            <option >B.E/B.Tech</option>
+            <option >MCA</option>
+            <option >MBA</option>
+            <option >M.Tech</option>
+            <option >C.A</option>
+        </select><br><br>
+        <label for="course">Course :</label>
+        <select name="c1" id="course">
+            <option>--Select--</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>CSE</option>
+        </select><br><br>
+        <label for="YOP">Year Of Passed Out :</label>
+        <select name="year" id="YOP">
+            <option>--Select--</option>
+            <option>2021</option>
+            <option>2020</option>
+            <option>2019</option>
+        </select><br><br>
+        <label for="tech">Skills :</label>
+        <input type="checkbox" name="s1" id="tech">Java
+        <input type="checkbox" name="s2" id="tech">HTML
+        <input type="checkbox" name="s3" id="tech">CSS
+        <input type="checkbox" name="s4" id="tech">JS
+        <input type="checkbox" name="s5" id="tech">ReactJS
+        <input type="checkbox" name="s6" id="tech">AngularJs
+        <br><br>
+        <label for="city">City :</label>
+        <select name="c1" id="city">
+            <option value="city">--select--</option>
+            <option value="city">Mancherial</option>
+            <option value="city">Peddapalli</option>
+            <option value="city">Karimnagar</option>
+            <option value="city">Hyderabad</option>
+            <option value="city">Jagityala</option>
+        </select><br><br>
+        <label for="state">State :</label>
+        <select name="st" id="state">
+            <option value="">--Select--</option>
+            <option value="">Telangana</option>
+            <option value="">Karnataka</option>
+            <option value="">Assam</option>
+            <option value="">Andra Pradesh</option>
+            <option value="">kerala</option>
+            <option value="">Goa</option>
+        </select><br><br>
+        <label for="address">Current Address</label>
+        <textarea name="Address" id="address" cols="25" rows="8" required></textarea><br><br>
+        <label for="photo">Upload Photo :</label>
+        <input type="file" name="phot" id="photo"><br><br>
+        <label for="file upload">Upload a Resume :</label>
+        <input type="file" name="file" id="file upload"><br><br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+
+    
+    
+</body>
+</html>
